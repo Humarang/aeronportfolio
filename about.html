@@ -1,0 +1,84 @@
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial0scale=1.0" />
+        <title>About</title>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <link rel="stylesheet" href="css/styleabout.css" />
+        <link rel="icon" type="image/png" href="images/ron.ico" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:updated_time" content="1440432930" />
+    </head>
+    <body>
+            <header>
+            <a href="#" class="logo"> <img src="img/ron.png"></a>
+             <ul class="navmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="certificate.html">Certificates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="chatbox.html">Chatbox</a></li>
+             </ul>   
+            </header>
+<br>
+            <section class="home">
+                <div class="home-text">
+                    <h2> Who I am? <i class="ph-bold ph-hand-waving"></i></h2>
+                    <h3>Hi, Mack Aeron G. Humarang</h3>
+                    <p>I am a dedicated IT Specialist with extensive experience in network management, troubleshooting, and systems administration. With a strong background in network infrastructure, I am skilled at designing, implementing, and maintaining robust network solutions to support business operations.</p>
+                    <p>Throughout my career, I have acquired significant expertise in areas such as:</p>
+                    <ul>
+                        <li>Install and Configure Networks</li>
+                        <li>Firewall and Security Protocols</li>
+                        <li>Setup Accounts and Workstations for users</li>
+                        <li>Incident Response and Troubleshooting</li>
+                        <li>Networking and Virtualization</li>
+                        <br>
+                        <h2> What about me? <i class="ph-bold ph-hand-waving"></i></h2>
+                    <h3>Degree Holder </h3>
+                    <p> I graduated from Bulacan Polytechnic College in 2019, My Degree is Bachelor of Science in Information System. What my studies are Networking, Programming and Computer Analysis. 
+                        </p>
+                        <p>My professional journey includes roles in Network, where I led critical projects involving network upgrades and security enhancements. I hold several industry-recognized certifications, including short courses at UDEMY and Cisco Skill, which validate my skills and commitment to continuous learning.</p>
+                        <p>Outside of work, I enjoy playing games and watching new technologies. I am passionate about staying updated with the latest trends in network technologies and exploring innovative solutions to complex network challenges.<br><h4>Languages : English, Filipino/Tagalog</h4></p>
+                        <div class="home-btn">
+                        <a href="contact.html" class="btn">Contact Info</a>
+                        <a href="resume/Mack Aeron Humarang - 2024 Resume.pdf" class="btn">Download CV <i class="ph ph read-cv-logo"></i></a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <div id="slideshow">
+                    <img src="img/picture5.png">
+	<img src="img/picture6.png" style="display: none">
+	<img src="img/picture2.png" style="display: none">
+	<img src="img/picture3.png" style="display: none">
+	<img src="img/picture4.png" style="display: none">
+    <img src="img/picture.png" style="display: none">
+    <img src="img/picture1.png" style="display: none">
+                </div>
+                </div>
+            </section>
+            
+            <script>
+                var slideshow = document.getElementById('slideshow');
+                var slides = slideshow.getElementsByTagName('img');
+                var idx = 0;
+                function changeSlide() {
+                    slides[idx].style.display = 'none';
+                    idx = (idx + 1) % slides.length;
+                    slides[idx].style.display = 'block';
+                }
+                setInterval(changeSlide, 3000);
+                </script>
+    <div class="socials-icons">
+            <a href="https://www.facebook.com/mackaeron144?mibextid=LQQJ4d"><i class="ph-bold ph-facebook-logo"></i></a>
+            <a href="https://www.linkedin.com/in/mack-aeron-humarang-05299a312/"><i class="ph-bold ph-linkedin-logo"></i></a>
+            <a href="https://github.com/Humarang"><i class="ph-bold ph-github-logo"></i></a>
+    </div>
+
+
+   
+    
+    </body>
+    </html>
